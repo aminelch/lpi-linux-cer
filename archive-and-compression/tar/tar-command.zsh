@@ -7,3 +7,10 @@ tar cvf /tmp/my_home_directory.tar /home/jsmith
 #dispaly all files from the tar archive 
 tar tvf /tmp/my_home_directory.tar
 
+#extract files from tar archive in the current directory 
+tar xvf mytar.tar 
+
+#extract files from tar archive in the specific location 
+tar xvfz mytar.tar -C ~/Documents 
+
+
